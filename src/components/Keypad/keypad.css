@@ -1,0 +1,14 @@
+button{
+    height:75px;
+    width:25%;
+    background-color:papayawhip;
+    font-size: 24px;
+    font-weight: bold;
+}
+button:hover{
+    border:3px solid blueviolet;
+}
+.buttonwrapper{
+    width:500px;
+    margin:0 auto;
+}
