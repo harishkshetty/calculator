@@ -26,7 +26,7 @@ constructor(){
   manipulate=()=>{
     const {output}=this.state;
     let finaloutput="";
-    if(output.includes('--'||'++')){
+    if(output.includes('--')){
 finaloutput=this.state.output.replace('--','+');
 
     }
