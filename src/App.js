@@ -9,7 +9,6 @@ constructor(){
   this.state={output:""}
 }
   caculate=(name)=>{
-    console.log(name);
     if(name==="="){
       this.manipulate();
     }
@@ -28,7 +27,6 @@ constructor(){
     const {output}=this.state;
     let finaloutput="";
     if(output.includes('--'||'++')){
-      alert("d")
 finaloutput=this.state.output.replace('--','+');
 
     }
